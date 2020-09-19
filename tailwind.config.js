@@ -4,6 +4,8 @@ module.exports = {
     fontFamily: {},
     extend: {},
   },
-  variants: {},
+  variants: {
+    opacity: ['responsive', 'hover', 'focus', 'disabled'],
+  },
   plugins: [],
 };
