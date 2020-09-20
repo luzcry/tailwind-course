@@ -4,7 +4,7 @@
   "description": "tailwind course",
   "main": "index.js",
   "scripts": {
-    "build": "postcss css/tailwind.css -o public/css/styles.css",
+    "build": "postcss css/tailwind.css -o public/css/styles.css --watch",
     "dev": "postcss css/tailwind.css -o public/css/styles.css --watch"
   },
   "author": "maria rodriguez",
